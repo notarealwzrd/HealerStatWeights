@@ -1,0 +1,32 @@
+## Interface: 80300
+## Title: Healer Stat Weights
+## Author: Bastas#6681 (discord)
+## Version: 1.9.1
+## Notes: Computes statweights for healers in real-time! Additional Credits: Jundarer, Voulk, Manaleaf
+## DefaultState: Enabled
+## SavedVariables: HSW_DB 
+
+embeds.xml
+
+Classes/Util.lua
+
+Classes/BuffTracker.lua
+Classes/CastTracker.lua
+Classes/Segment.lua
+Classes/SegmentManager.lua
+Classes/StatParser.lua
+Classes/UnitManager.lua
+Classes/Queues.lua
+Classes/OptionsBuilder.lua
+
+Parsers/Spells.lua
+Parsers/HolyPriest.lua
+Parsers/DiscPriest.lua
+Parsers/RestoDruid.lua
+Parsers/RestoShaman.lua
+Parsers/HolyPaladin.lua
+Parsers/MistweaverMonk.lua
+
+DisplayPanel.lua
+Core.lua
+Events.lua
